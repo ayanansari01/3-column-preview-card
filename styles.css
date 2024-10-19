@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Big Shoulders Display;
+    color: #FEF6E9;
+    padding: 20px 0;
+}
+
+p{
+    font-family: Lexend Deca;
+    padding-bottom: 30px;
+}
+
+button{
+    border-radius: 20px;
+    border-color: #FEF6E9;
+    border-style: solid;
+    padding: 10px;
+    width: 120px;
+    font-family: Lexend Deca;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #FEF6E9;
+}
+
+.sedans-btn{
+    background-color: #FEF6E9;
+    color: #E28525;
+}
+
+.suv-btn{
+    background-color: #FEF6E9;
+    color: #016972;
+}
+
+.luxury-btn{
+    background-color: #FEF6E9;
+    color: #00403F;
+}
+
+.outer-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 930px;
+    max-height: 541px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sedan-sec{
+    background-color: #E28525;
+    color: #FFD29B;
+    padding: 70px;
+    border-radius: 7px 0 0 7px;
+    width: 33.3%;
+    min-width: 310px;
+    max-height: 541px;
+}
+
+.suv-sec{
+    background-color: #016972;
+    color: #8BCDD9;
+    padding: 70px;
+    width: 33.3%;
+    min-width: 310px;
+    max-height: 541px;
+}
+
+.luxury-sec{
+    background-color: #00403F;
+    color: #8AB2B5;
+    padding: 70px;
+    border-radius: 0 7px 7px 0;
+    width: 33.3%;
+    min-width: 310px;
+    max-height: 541px;
+}
